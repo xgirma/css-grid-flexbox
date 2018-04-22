@@ -2,7 +2,7 @@
 
 NOTE: use Flexbox for UI elements, but Grid for major layout.
 
-# Class name 
+# class name 
 Grid, each cell has a unique class name. Because now we have to specify in two dimension. If two cell have the same name, they will overlap.
 
 | <img width="500" alt="screen shot 2018-04-21 at 11 47 52 pm" src="https://user-images.githubusercontent.com/5876481/39092262-c654eb4c-45be-11e8-9585-31654f7414c0.png"> |
@@ -13,7 +13,7 @@ Grid, each cell has a unique class name. Because now we have to specify in two d
 |:--:| 
 | *Grid: unique class name* |
     
-# 01 Grid 
+# 01 grid 
 We have grid container and grid item. The parent here is the wrapper and the cells (col1, ...) are the children. 
 
     grid-gap: space between grid cells
@@ -38,3 +38,13 @@ We have grid container and grid item. The parent here is the wrapper and the cel
 |:--:|
 |*example*|
 
+# 03 grid-row
+
+
+|<img width="500" alt="screen shot 2018-04-22 at 12 18 45 am" src="https://user-images.githubusercontent.com/5876481/39092439-cfeeea32-45c2-11e8-86e4-fc74ed0ed303.png">|
+|:--:|
+|*Grid column and row*|
+
+|<img width="500" alt="screen shot 2018-04-22 at 12 18 59 am" src="https://user-images.githubusercontent.com/5876481/39092440-d51cb8fe-45c2-11e8-9e96-b727d992d77c.png">|
+|:--:|
+|*Example*|
