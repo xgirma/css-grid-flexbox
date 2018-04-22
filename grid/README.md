@@ -98,3 +98,55 @@ We have grid container and grid item. The parent here is the wrapper and the cel
 |<img width="1200" alt="3" src="https://user-images.githubusercontent.com/5876481/39092709-e5369876-45c8-11e8-81b6-b20e5e3d89b7.png">| 
 |:--:| 
 |*>1000 px*|
+
+# 05 grid area
+The below `css` gives the same result as the above pictures. 
+
+```css
+.wrapper {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+            "header"
+            "article"
+            "aside";
+}
+
+header {
+    background-color: greenyellow;
+    grid-area: header;
+}
+
+article {
+    background-color: #ff4e4e;
+    grid-area: article;
+}
+
+aside {
+    background-color: darkolivegreen;
+    grid-area: aside;
+}
+
+@media (min-width: 650px) {
+    .wrapper {
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+                " article article aside"
+                "header header aside";
+    }
+}
+
+@media (min-width: 1000px) {
+    .wrapper {
+        grid-template-columns: 1fr 5fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+                "aside header header header header"
+                "aside article article article article";
+    }
+}
+```
+
