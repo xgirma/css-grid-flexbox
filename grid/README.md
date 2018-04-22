@@ -150,3 +150,86 @@ aside {
 }
 ```
 
+# 06 Nesting
+
+```css
+.wrapper {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    grid-template-areas:
+            "header"
+            "article"
+            "aside";
+}
+
+header {
+    background-color: greenyellow;
+    grid-area: header;
+}
+
+article {
+    background-color: #ff4e4e;
+    grid-area: article;
+    display: grid;
+    grid-template-columns: auto;
+    grid-gap: 1em;
+}
+
+.inner {
+    background-color: white;
+}
+
+aside {
+    background-color: darkolivegreen;
+    grid-area: aside;
+}
+
+@media (min-width: 650px) {
+    .wrapper {
+        grid-template-columns: 2fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+                " article article aside"
+                "header header aside";
+    }
+    .nested {
+        display: grid;
+        grid-gap: 1em;
+        padding: 0.5em;
+        border-radius: 0.5em;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (min-width: 1000px) {
+    .wrapper {
+        grid-template-columns: 1fr 5fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+                "aside header header header header"
+                "aside article article article article";
+    }
+    .nested {
+        display: grid;
+        grid-gap: 1em;
+        padding: 0.5em;
+        border-radius: 0.5em;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+```
+
+|<img width="360" alt="1" src="https://user-images.githubusercontent.com/5876481/39093539-ec4cc95c-45d5-11e8-87e5-f1718e35ff88.png">|
+|:--:|
+|*<600*|
+
+
+|<img width="500" alt="2" src="https://user-images.githubusercontent.com/5876481/39093540-ec5ea3de-45d5-11e8-93ce-c3950ee74e8d.png">|
+|:--:|
+|*>600*|
+
+|<img width="1000" alt="3" src="https://user-images.githubusercontent.com/5876481/39093541-ec704ed6-45d5-11e8-8cfd-6ffe0865e01e.png">|
+|:--:|
+|*>1000*|
