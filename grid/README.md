@@ -48,3 +48,53 @@ We have grid container and grid item. The parent here is the wrapper and the cel
 |<img width="500" alt="screen shot 2018-04-22 at 12 18 59 am" src="https://user-images.githubusercontent.com/5876481/39092440-d51cb8fe-45c2-11e8-9e96-b727d992d77c.png">|
 |:--:|
 |*Example*|
+
+
+# 04 media query
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+|<img width="395" alt="1" src="https://user-images.githubusercontent.com/5876481/39092705-dc76aaaa-45c8-11e8-95c7-d504d6af3cf7.png">| 
+|:--:| 
+|*<600 px*|
+
+```css
+@media (min-width: 650px) { 
+	header {
+		grid-column: 1 / 2;
+		grid-row: 2 / 3;
+	}
+	article {
+		grid-column: 1 / 2;
+		grid-row: 1 / 2;
+	}
+	aside {
+		grid-column: 2 / 3;
+		grid-row: 1 / 3;
+	}
+}
+``` 
+
+|<img width="892" alt="2" src="https://user-images.githubusercontent.com/5876481/39092706-e0d95002-45c8-11e8-81da-ded309ba7f46.png">| 
+|:--:| 
+|*>600 px*|
+
+```css
+@media (min-width: 1000px) { 
+	header {
+		grid-column: 2 / 3;
+		grid-row: 1 / 2;
+	}
+	article {
+		grid-column: 2 / 3;
+		grid-row: 2 / 3;
+	}
+	aside {
+		grid-column: 1 / 2;
+		grid-row: 1 / 3;
+	}
+}
+```
+|<img width="1329" alt="3" src="https://user-images.githubusercontent.com/5876481/39092709-e5369876-45c8-11e8-81b6-b20e5e3d89b7.png">| 
+|:--:| 
+|*>1000 px*|
