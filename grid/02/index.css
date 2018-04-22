@@ -1,6 +1,6 @@
 .“wrapper” {
     display: grid;
-    grid-gap: 10px;
+    grid-gap: 2em;
 }
 
 .“col-1” {
