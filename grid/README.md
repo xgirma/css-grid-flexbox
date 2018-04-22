@@ -75,7 +75,7 @@ We have grid container and grid item. The parent here is the wrapper and the cel
 }
 ``` 
 
-|<img width="824" alt="2" src="https://user-images.githubusercontent.com/5876481/39092706-e0d95002-45c8-11e8-81da-ded309ba7f46.png">| 
+|<img width="600" alt="2" src="https://user-images.githubusercontent.com/5876481/39092706-e0d95002-45c8-11e8-81da-ded309ba7f46.png">| 
 |:--:| 
 |*>600 px*|
 
