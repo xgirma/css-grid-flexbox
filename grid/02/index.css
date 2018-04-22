@@ -1,0 +1,20 @@
+.“wrapper” {
+    display: grid;
+    grid-gap: 10px;
+}
+
+.“col-1” {
+    grid-column: 1/2;
+}
+
+.“col-2” {
+    grid-column: 2/3;
+}
+
+.“col-3” {
+    grid-column: 3/4;
+}
+
+.“col-4” {
+    grid-column: 4/5;
+}
