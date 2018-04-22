@@ -27,9 +27,12 @@ We have grid container and grid item. The parent here is the wrapper and the cel
 |<img width="500" alt="screen shot 2018-04-22 at 12 06 07 am" src="https://user-images.githubusercontent.com/5876481/39092364-0c59cf7a-45c1-11e8-9dbd-3c6da96c2cec.png">|
 |:--:|
 |*example*|
+
 # 02 grid-column
 
 |<img width="500" alt="screen shot 2018-04-21 at 11 25 52 pm" src="https://user-images.githubusercontent.com/5876481/39092148-6fe0a290-45bb-11e8-874d-5b4bd9be15d7.png">|
+|:--:|
+|*grid-column*|
 
 |<img width="500" alt="screen shot 2018-04-22 at 12 11 02 am" src="https://user-images.githubusercontent.com/5876481/39092398-b55636a4-45c1-11e8-9077-142ce6cd5de8.png">|
 |:--:|
