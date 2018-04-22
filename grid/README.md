@@ -54,7 +54,7 @@ We have grid container and grid item. The parent here is the wrapper and the cel
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-|<img width="300" alt="1" src="https://user-images.githubusercontent.com/5876481/39092705-dc76aaaa-45c8-11e8-95c7-d504d6af3cf7.png">| 
+|<img width="364" alt="1" src="https://user-images.githubusercontent.com/5876481/39092705-dc76aaaa-45c8-11e8-95c7-d504d6af3cf7.png">| 
 |:--:| 
 |*<600 px*|
 
@@ -75,7 +75,7 @@ We have grid container and grid item. The parent here is the wrapper and the cel
 }
 ``` 
 
-|<img width="500" alt="2" src="https://user-images.githubusercontent.com/5876481/39092706-e0d95002-45c8-11e8-81da-ded309ba7f46.png">| 
+|<img width="824" alt="2" src="https://user-images.githubusercontent.com/5876481/39092706-e0d95002-45c8-11e8-81da-ded309ba7f46.png">| 
 |:--:| 
 |*>600 px*|
 
@@ -95,6 +95,6 @@ We have grid container and grid item. The parent here is the wrapper and the cel
 	}
 }
 ```
-|<img width="500" alt="3" src="https://user-images.githubusercontent.com/5876481/39092709-e5369876-45c8-11e8-81b6-b20e5e3d89b7.png">| 
+|<img width="1200" alt="3" src="https://user-images.githubusercontent.com/5876481/39092709-e5369876-45c8-11e8-81b6-b20e5e3d89b7.png">| 
 |:--:| 
 |*>1000 px*|
