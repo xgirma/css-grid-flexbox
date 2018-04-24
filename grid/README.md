@@ -150,7 +150,7 @@ aside {
 }
 ```
 
-# 06 Nesting
+# 06 nesting
 
 ```css
 .wrapper {
